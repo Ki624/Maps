@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Kart for ulike måneder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        li {
+            margin: 5px;
+        }
+        a {
+            display: block;
+            padding: 10px 15px;
+            background-color: #479ed5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #3572a5;
+        }
+        iframe {
+            display: block;
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kart for ulike måneder</h1>
+    <ul>
+        <li><a href="januar.html" target="kart_frame">Januar</a></li>
+        <li><a href="februar.html" target="kart_frame">Februar</a></li>
+        <li><a href="mars.html" target="kart_frame">Mars</a></li>
+        <li><a href="april.html" target="kart_frame">April</a></li>
+        <li><a href="mai.html" target="kart_frame">Mai</a></li>
+        <li><a href="juni.html" target="kart_frame">Juni</a></li>
+        <li><a href="juli.html" target="kart_frame">Juli</a></li>
+        <li><a href="august.html" target="kart_frame">August</a></li>
+        <li><a href="september.html" target="kart_frame">September</a></li>
+        <li><a href="oktober.html" target="kart_frame">Oktober</a></li>
+        <li><a href="november.html" target="kart_frame">November</a></li>
+        <li><a href="desember.html" target="kart_frame">Desember</a></li>
+    </ul>
+    
+    <iframe name="kart_frame" src="januar.html"></iframe>
+</body>
+</html>
